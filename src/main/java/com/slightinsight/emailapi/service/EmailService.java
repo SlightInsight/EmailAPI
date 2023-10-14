@@ -32,10 +32,10 @@ public class EmailService {
 	private String clientId;
 
 	@Value("${microsoft.azure.tenant-id}")
-	private String tenantId = "2dc815d9-2837-41fa-9f23-5c265f9bdb37";
+	private String tenantId;
 
 	@Value("${spring.security.oauth2.client.registration.azure.client-secret}")
-	private String clientSecret = "YiH8Q~Wg5pv85zoTFuc5gRj-mFbvnwEzkmlpSbFC";
+	private String clientSecret;
 
 	@Value("${spring.mail.username}")
 	private String sender;
